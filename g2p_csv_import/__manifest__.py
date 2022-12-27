@@ -7,14 +7,13 @@
     "author": "OpenG2P",
     "website": "https://github.com/OpenG2P/openg2p-csv-import",
     "license": "Other OSI approved licence",
-    "development_status": "Production/Stable",
-    "maintainers": ["jeremi", "gonzalesedwin1123"],
-    "depends": ["base", "mail", "contacts", "web"],
+    "depends": ["base", "mail", "contacts", "web","g2p_registry_individual"],
     "data": [
         # "security/g2p_security.xml",
         "security/ir.model.access.csv",
         # "wizard/disable_registrant_view.xml",
         # "views/main_view.xml",
+        "views/individuals_view.xml",
         # "views/reg_relationship_view.xml",
         # "views/relationships_view.xml",
         # "views/reg_id_view.xml",
@@ -22,14 +21,7 @@
         # "views/phone_number_view.xml",
         # "views/tags_view.xml",
     ],
-    "assets": {
-        # "web.assets_backend": [
-        #     "/g2p_registry_base/static/src/js/custom_client_action.js",
-        # ],
-        # "web.assets_qweb": [
-        #     "g2p_registry_base/static/src/xml/custom_web.xml",
-        # ],
-    },
+  
     "demo": [],
     "images": [],
     "application": False,
