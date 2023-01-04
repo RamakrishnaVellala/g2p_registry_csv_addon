@@ -15,7 +15,7 @@ odoo.define('button_near_create.tree_button', function (require) {
                 tag: 'import',
                 params: { 
                     'model': 'res.partner', 
-                    'context': "{ 'default_is_registrant': 'True', 'default_is_group': 'False','registrant_form': 'True' }" }
+                    'context': { 'default_is_registrant': true, 'default_is_group': false, 'registrant_form': true } }
             });
         }
     });

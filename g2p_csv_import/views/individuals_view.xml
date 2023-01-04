@@ -4,22 +4,22 @@
     <record model="ir.actions.client" id="action_g2p_individual_import">
         <field name="name">g2p_individual_import</field>
         <field name="tag">import</field>
-        <field name="params">{'model':'res.partner','context':{'default_is_registrant':True,'default_is_group':False,'registrant_form':True}}</field>
-    </record>
-    <record id="view_individuals_csv_import_tree" model="ir.ui.view">
-        <field name="name">view_individuals_csv_import_tree</field>
-        <field name="model">res.partner</field>
-        <field name="inherit_id" ref="g2p_registry_individual.view_individuals_list_tree"/>
-        <field name="arch" type="xml">
-            <!-- <tree position="inside">
+        
+        </record>
+        <record id="view_individuals_csv_import_tree" model="ir.ui.view">
+            <field name="name">view_individuals_csv_import_tree</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="g2p_registry_individual.view_individuals_list_tree"/>
+            <field name="arch" type="xml">
+                <!-- <tree position="inside">
                 <header>
                     <button string="Import" name="%(action_g2p_individual_import)d" type="action" class="oe_highlight" attrs="{'always_visible':True}"/>
                 </header>
             </tree> -->
-            <xpath expr="//tree" position="attributes">
-                <attribute name="js_class">button_in_tree</attribute>
-            </xpath>
-        </field>
-    </record>
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="js_class">button_in_tree</attribute>
+                </xpath>
+            </field>
+        </record>
 
-</odoo>
+    </odoo>
