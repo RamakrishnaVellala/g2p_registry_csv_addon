@@ -6,10 +6,10 @@
     "sequence": 1,
     "author": "OpenG2P",
     "website": "https://github.com/OpenG2P/openg2p-csv-import",
-    "depends": ["base", "mail", "contacts", "web","g2p_registry_individual"],
+    "depends": ["base", "web","g2p_registry_individual","base_import"],
     "data": [
         
-        "security/ir.model.access.csv",
+        # "security/ir.model.access.csv",
         "views/individuals_view.xml",
 
     ],

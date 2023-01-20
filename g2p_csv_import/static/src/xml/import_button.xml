@@ -2,9 +2,7 @@
 <templates>
    <t t-extend="ListView.buttons" t-name="button_near_create.buttons">
        <t t-jquery="button.o_list_button_add" t-operation="after" >
-           <button name="418" type="button" class="btn btn-primary open_wizard_action" >
-              Import
-           </button>
+           <button name="418" type="button" class="btn btn-secondary fa fa-upload o_list_import_xlsx open_wizard_action"  title="import"/>
        </t>
    </t>
 </templates>
