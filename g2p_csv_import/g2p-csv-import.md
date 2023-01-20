@@ -15,7 +15,7 @@
   - it is better to check file size should be less than 25mb.
 
 ## **Flow of importing csv/excel file**
-![Flow](/home/ramakrishna/Desktop/openg2p/openg2p-csv-import/g2p_csv_import/flow.png)
+![Flow](https://github.com/RamakrishnaVellala/openg2p-csv-import/blob/develop/g2p_csv_import/csv%20import%20flow.jpg)
 
 
 ## **steps:**
