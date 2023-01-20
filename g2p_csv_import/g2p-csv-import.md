@@ -1,10 +1,10 @@
-# **g2p-csv-import**
+# **G2P-Csv-Import**
 
 **Overview /Introduction /About**
 
     This is a feature which helps to import many registrants at a time by using importing csv/excel
 
-## installation
+## Installation
 - Add module to addon path and run odoo.
 - Go to settings and activate developer settings
 - Then update the apps list.
@@ -12,13 +12,13 @@
 
 ## Important  validations to use this Feature 
   - Name is mandatory for using this Feature.
-  - it is better to check file size should be less than 25mb.
+  - It is better to check file size should be less than 25mb.
 
 ## **Flow of importing csv/excel file**
 ![Flow](https://github.com/RamakrishnaVellala/openg2p-csv-import/blob/develop/g2p_csv_import/csv%20import%20flow.jpg)
 
 
-## **steps:**
+## **Steps:**
 1.  First make sure the  module is installed. If it isnt then you can click on the g2p_csv_import module in the applications view.
 
 2. Go to Settings -> Configuration -> General Settings and check the "Allow users to import data from CSV files" checkbox
